@@ -43,3 +43,13 @@ Salva o plano de execução em um arquivo alem de exubir o plano no console
 terraform show nomeArquivo.out
 ```
 Abre o arquivo binario e exibe o plano de execucao
+
+```bash
+terraform apply
+```
+Executa a criacao da infra do meu terraform
+
+```bash
+terraform apply -destroy
+```
+Romove infra criada pelo meu terraform
